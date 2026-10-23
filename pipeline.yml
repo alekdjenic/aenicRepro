@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: Default
+
+steps:
+- script: echo webhook-repro
+  displayName: Webhook reproduction
